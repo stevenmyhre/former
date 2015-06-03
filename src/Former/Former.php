@@ -453,7 +453,7 @@ class Former
 			return $this->errors->first($name);
 		}
 
-		return $this->errors;
+		return null;
 	}
 
 	/**
